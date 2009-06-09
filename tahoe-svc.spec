@@ -58,7 +58,7 @@ exec multilog t n10 s1048576 %{_var}/log/%{name}
 
 %preun
 %svc_preun
-svclist="tahoe"
+svclist='tahoe'
 %svc_unregsrv
 
 %changelog
